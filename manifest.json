@@ -1,5 +1,8 @@
 {
   "name": "Calipers",
   "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
   "manifest_version": 2
 }
