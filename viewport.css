@@ -1,0 +1,16 @@
+#viewport{
+  background-color: rgba(0,0,0,0.8);
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Menlo, 'Droid Sans Mono', Monaco, monospace;
+  font-size: 25px;
+  left: 0;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+#viewport .height-val, #viewport .width-val{
+  color: white;
+  font-size: 48px;
+}
