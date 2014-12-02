@@ -14,3 +14,12 @@
   color: white;
   font-size: 48px;
 }
+
+#viewport .label{
+  padding: 0 5px;
+  vertical-align: top;
+}
+
+#viewport .separator{
+  padding: 0 10px 0 0;
+}

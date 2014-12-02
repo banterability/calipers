@@ -7,7 +7,7 @@ template = [
   'W',
   '</span>',
   '</span>',
-  '&times;',
+  '<span class="separator">&times;</span>',
   '<span class="height">',
   '<span class="height-val">',
   '???',
