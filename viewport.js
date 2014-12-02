@@ -19,11 +19,12 @@ template = [
 ].join('');
 
 
-drawElement = function(){
+init = function(){
   var el = document.createElement('div');
   el.id = 'viewport';
   el.innerHTML = template;
   document.body.appendChild(el);
+  updateViewport();
 };
 
 updateViewport = function(){
@@ -33,6 +34,5 @@ updateViewport = function(){
   viewportDisplay.querySelector('.height-val').textContent = dde.clientHeight;
 };
 
-drawElement();
-updateViewport();
 window.addEventListener('resize', updateViewport, false);
+init();
