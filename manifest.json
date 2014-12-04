@@ -1,6 +1,7 @@
 {
   "name": "Calipers",
   "version": "1.0",
+  "description": "Keep an eye on your viewport",
   "permissions": [
     "activeTab"
   ],
